@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/user_greeting_container"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/cerulean_blue">
+
+
+        <TextView
+            android:id="@+id/user_greeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="60dp"
+            android:text="Hello"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="32sp" />
+
+        <!-- android:gravity="center_horizontal"-->
+
+        <Button
+            android:id="@+id/edit_profile_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/button_height"
+            android:layout_below="@id/user_greeting"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/corner_rounding_white"
+            android:elevation="2dp"
+            android:paddingLeft="@dimen/button_left_right_padding"
+            android:paddingRight="@dimen/button_left_right_padding"
+            android:text="@string/edit_profile_btn"
+            android:textColor="@color/cerulean_blue"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/approve_profile_edit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/user_greeting"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/done" />
+
+        <ImageView
+            android:id="@+id/cancel_profile_edit"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_below="@id/user_greeting"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/approve_profile_edit"
+            android:src="@drawable/clear" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tabs_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_greeting_container">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/user_profile_tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cerulean_blue"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabIndicatorHeight="4dp"
+            app:tabMode="fixed"
+            app:tabSelectedTextColor="@color/white"
+            app:tabTextColor="@color/blue_gray_light" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/user_profile_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/user_profile_tabs" />
+
+
+        <!--&lt;!&ndash;<View&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="2dp"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_above="@+id/bottom_navigation"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@id/user_profile_view_pager"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/secondary_text"></View>&ndash;&gt;-->
+
+        <!--<android.support.design.widget.BottomNavigationView-->
+        <!--android:id="@+id/bottom_nav_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_below="@id/tabs_container"-->
+        <!--app:itemBackground="@color/white"-->
+        <!--app:itemIconTint="@color/cerulean_blue"-->
+        <!--app:itemTextColor="@color/cerulean_blue"-->
+        <!--app:menu="@menu/bottom_navigation" />-->
+
+    </RelativeLayout>
+</RelativeLayout>

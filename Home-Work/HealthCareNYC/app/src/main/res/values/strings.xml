@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">HealthCareNYC</string>
+
+    <!-- SignUp Activity-->
+    <string name="sign_up_btn">SET UP YOUR PROFILE</string>
+    <string name="find_service_btn">FIND A SERVICE</string>
+    <string name="app_tagline">Tagline goes here la la la </string>
+
+
+    <!-- Find A Service Activity -->
+    <string name="greeting_txt">What can we help you take care of?</string>
+    <string name="enter_location">Enter a location</string>
+    <string name="use_current_location">Use current location</string>
+
+
+    <!-- Services Spinner options -->
+    <string-array name="medical_services">
+        <item>Please select a service</item>
+        <item>General Hospital</item>
+        <item>Health Center</item>
+        <item>Child Health Center</item>
+        <item>Nursing Home</item>
+        <item>STD Testing</item>
+        <item>Women's Health</item>
+        <item>Birth Control</item>
+        <item>Planned Parenthood</item>
+    </string-array>
+
+    <!-- User Profile -->
+    <string name="edit_profile_btn">EDIT PROFILE</string>
+
+    <string name="family_size">Your family size is</string>
+    <string name="family_income">Your income is</string>
+
+
+    <!-- Bottom Navigation Bar-->
+    <string name="nav_search">Search</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_calculator">Calculator</string>
+
+    <!--LOCATIONS-->
+
+    <!--Health Centers > Addresses-->
+    <string name="nyu_clinic_address">16 East 16th Street, New York, NY 10003</string>
+    <string name="weill_cornell_address">505 East 70th Street, 1st Floor, New York, NY 10021</string>
+    <string name="mount_sinai_address">17 East 102nd Street, 7th Floor, New York, NY 10029</string>
+    <string name="st_anthonys_address">421 East 155th Street, Bronx, NY 10455</string>
+    <string name="echo_clinic_address">1894 Walton Avenue, Bronx, NY 10453</string>
+    <string name="ryan_clinic_uws">110 West 97th Street, New York, NY 10025 </string>
+    <string name="ryan_clinic_les">279 East 3rd Street, New York, NY 10009 </string>
+    <string name="ryan_clinic_hk">645 10th Ave, New York, NY 10036</string>
+    <string name="ryan_clinic_harlem">565 Manhattan Avenue, New York, NY 10027</string>
+    <string name="ryan_clinic_frederick_douglass">2381 Frederick Douglass Blvd., New York, NY 10027</string>
+    <string name="callen_lorde_clinic_address">356 West 18th Street, New York, NY 10011</string>
+    <string name="charles_wang_clinic_address_chtwn">268 Canal Street, New York, NY 10013</string>
+    <string name="charles_wang_clinic_address_flushing">136-26 37th Avenue 3rd Floor, Flushing, NY 11354</string>
+    <string name="charles_wang_clinic_address_flushing_second">137-43 45th Avenue, Flushing, NY 11355</string>
+
+
+    <!--Health Centers - Phone numbers-->
+    <string name="nyu_clinic_address_phone">212-206-5200</string>
+    <string name="weill_cornell_address_phone">646-962-9222</string>
+    <string name="st_anthonys_address_phone">718-401-9705</string>
+    <string name="echo_clinic_address_phone">718-583-3060</string>
+    <string name="ryan_clinic_uws_phone">212-749-1820</string>
+    <string name="ryan_clinic_les_phone">212-477-8500</string>
+    <string name="ryan_clinic_hk_phone">212-265-4500</string>
+    <string name="ryan_clinic_harlem_phone">212-222-5221</string>
+    <string name="ryan_clinic_fred_douglass_phone">212-866-4400</string>
+    <string name="callen_lorde_clinic_phone">212-271-7200</string>
+    <string name="charles_wang_clinic_chtwn_phone">212-379-6998</string>
+    <string name="charles_wang_clinic_flushing_phone">718-886-1200</string>
+    <string name="charles_wang_clinic_flushing_second_phone">929-362-3006</string>
+
+    <!--Health Centers - websites -->
+    <string name="nyu_clinic_web">http://nycfreeclinic.med.nyu.edu</string>
+    <string name="weill_cornell_web">https://wccc.weillcornell.org</string>
+    <string name="st_anthonys_web">http://franciscanfriars.com/st-anthonys-clinic</string>
+    <string name="echo_clinic_web">https://www.einstein.yu.edu/students/clubs/echo</string>
+    <string name="ryan_clinic_web">http://ryanhealth.org</string>
+    <string name="callen_lorde_web">http://callen-lorde.org</string>
+    <string name="charles_wang_web">http://www.cbwchc.org</string>
+
+    <!--
+    RYAN center locations: http://ryanhealth.org/ryan-center-locations/
+    William F. Ryan Community Health Center - UWS
+    Ryan-NENA Community Health Center - les
+    Ryan/Chelsea-Clinton Community Health Center - hell's kitchen
+
+    The Ryan Women and Children’s Center
+    801 Amsterdam Avenue, New York, NY 10025 | 212-316-8300
+
+    Ryan/Adair Community Health Center (Harlem)
+    565 Manhattan Avenue, New York, NY 10027 | 212-222-5221
+
+    Ryan/Frederick Douglass Community Health Center
+    2381 Frederick Douglass Blvd., New York, NY 10027 | 212-866-4400
+
+    -->
+
+    <!--Dental > Addresses-->
+    <string name="charles_wang_dental_address">125 Walker Street </string>
+
+    <string name="charles_wang_dental_phone">212-226-9339</string>
+
+
+    <!--Women's Health > Addresses-->
+    <string name="planned_parenthood_bronx">349 E 149th St, 2nd Floor, Bronx, NY 10451</string>
+    <string name="planned_parenthood_manhattan">26 Bleecker St, New York, NY 10012</string>
+    <string name="planned_parenthood_queens">21-41 45th Rd, Long Island City, NY 11101</string>
+    <string name="planned_parenthood_brooklyn">44 Court St, Brooklyn, NY 11201</string>
+    <string name="planned_parenthood_staten_island">23 Hyatt St, Staten Island, NY 10301</string>
+    <string name="eastside_gynecology">144 E 44th St #225, New York, NY 10017</string>
+    <string name="charles_wang_gyn_chtwn_phone">268 Canal Street, New York, NY 10013</string>
+    <string name="charles_wang_gyn_flushing">136-26 37th Avenue 3rd Floor, Flushing, NY 11354</string>
+    <string name="charles_wang_gyn_flushing_second">137-43 45th Avenue, Flushing, NY 11355</string>
+
+    <!--Women's Health - Phone numbers-->
+    <string name="planned_parenthood_phone">212-965-7000</string>
+    <string name="eastside_gynecology_phone">212-308-4988</string>
+    <string name="charles_wang_gyn_canal_phone">212-966-0228</string>
+    <string name="charles_wang_gyn_flushing1_phone">718-886-1287</string>
+    <string name="charles_wang_gyn_flushing2_phone">929-362-3006</string>
+
+    <!--Women's Health - Website-->
+    <string name="ppnyc_website">https://www.plannedparenthood.org/planned-parenthood-new-york-city</string>
+
+
+    <!--STD Testing  > Addresses-->
+    <string name="health_dept_sexual_harlem">2238 5th Avenue, 1st Floor, New York, NY 10037</string>
+    <string name="health_dept_sexual_chelsea">303 Ninth Avenue, New York, NY 10001</string>
+    <string name="health_dept_sexual_riverside">160 West 100th Street, New York, NY 10025</string>
+    <string name="health_dept_sexual_morrisania">1309 Fulton Avenue, 2nd Floor, Bronx, NY 10456</string>
+    <string name="health_dept_sexual_crown_heights">1218 Prospect Place, 2nd Floor, Brooklyn, NY 11213</string>
+    <string name="health_dept_sexual_fort_greene">295 Flatbush Avenue Extension, 2nd Floor, Brooklyn, NY 11201</string>
+    <string name="health_dept_sexual_corona">34-33 Junction Boulevard, Jackson Heights, NY 11372</string>
+    <string name="health_dept_sexual_jamaica">90-37 Parsons Boulevard, 1st Floor, Jamaica, NY 11432</string>
+
+    <!--STD Testing - Phone numbers-->
+    <string name="health_dept_sexual_harlem_phone">2238 5th Avenue, 1st Floor, New York, NY 10037</string>
+    <string name="health_dept_sexual_manhattanville_phone">21 Old Broadway, 2nd Floor, New York, NY 10027</string>
+    <string name="health_dept_sexual_riverside_phone">160 West 100th Street, New York, NY 10025</string>
+    <string name="health_dept_sexual_morrisania_phone">1309 Fulton Avenue, 2nd Floor, Bronx, NY 10456</string>
+    <string name="health_dept_sexual_crown_heights_phone">1218 Prospect Place, 1st Floor, Brooklyn, NY 11213</string>
+    <string name="health_dept_sexual_fort_greene_phone">295 Flatbush Avenue Ext., 2nd Floor, Brooklyn, NY 11201</string>
+    <string name="health_dept_sexual_corona_phone">34-33 Junction Boulevard, Jackson Heights, NY 11372</string>
+    <string name="health_dept_sexual_jamaica_phone">90-37 Parsons Boulevard, 1st Floor, Jamaica, NY 11432</string>
+
+    <!--STD Testing - website-->
+    <string name="health_dept_sexual_website">https://www1.nyc.gov/site/doh/services/sexual-health-clinics.page</string>
+
+</resources>
