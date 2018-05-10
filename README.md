@@ -11,3 +11,15 @@ AccessHealth (in progress) provides uninsured and low income New Yorkers with a 
 <p align="center">
   <img src="https://i.imgur.com/XNOVsix.jpg"/>
 </p>
+
+### Design 
+
+<p align="center">
+ <img src="https://i.imgur.com/nLlc3or.png"/>
+</p>
+
+<p align="center">
+ <img src="https://i.imgur.com/PbUnffA.png"/>
+</p>
+
+
