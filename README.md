@@ -2,7 +2,7 @@
 
 ### Previous version available here >> https://github.com/akasha-archer/C4QHackathonApp
 
-AccessHealth (in progress) provides uninsured and low income New Yorkers with a list of NYC Health and Hospital Corporation (HHC) facilities that provide medical services on a sliding scale.
+AccessHealth (in progress) provides uninsured and low income New Yorkers with a list of medical facilities that provide services on a sliding scale. It also includes a calculator that informs them of the cost for services--based on income level and family size--at NYC Health and Hospital Corporation (HHC) facilities.
 
 ### Screens for MVVM Architecture 
 
