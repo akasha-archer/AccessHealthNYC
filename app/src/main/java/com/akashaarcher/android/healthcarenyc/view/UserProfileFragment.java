@@ -48,7 +48,6 @@ public class UserProfileFragment extends Fragment {
         viewPager.setAdapter(pagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        //   ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("NYC101");
         return view;
     }
 

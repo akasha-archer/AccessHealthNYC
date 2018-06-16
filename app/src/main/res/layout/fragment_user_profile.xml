@@ -86,25 +86,5 @@
             android:layout_height="match_parent"
             android:layout_below="@id/user_profile_tabs" />
 
-
-        <!--&lt;!&ndash;<View&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_height="2dp"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_above="@+id/bottom_navigation"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:layout_below="@id/user_profile_view_pager"&ndash;&gt;-->
-        <!--&lt;!&ndash;android:background="@color/secondary_text"></View>&ndash;&gt;-->
-
-        <!--<android.support.design.widget.BottomNavigationView-->
-        <!--android:id="@+id/bottom_nav_layout"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="56dp"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_centerVertical="true"-->
-        <!--android:layout_below="@id/tabs_container"-->
-        <!--app:itemBackground="@color/white"-->
-        <!--app:itemIconTint="@color/cerulean_blue"-->
-        <!--app:itemTextColor="@color/cerulean_blue"-->
-        <!--app:menu="@menu/bottom_navigation" />-->
-
     </RelativeLayout>
 </RelativeLayout>
