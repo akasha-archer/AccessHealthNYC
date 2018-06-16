@@ -53,7 +53,6 @@ public class FindServiceFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_find_service, container, false);
         unbinder = ButterKnife.bind(this, view);
 
-     //   ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle("NYC101");
         return view;
     }
 

@@ -31,7 +31,7 @@ public class UserInfoFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.view_pager_user_info, container, false);
+        View view = inflater.inflate(R.layout.tab_user_info, container, false);
 
         unbinder = ButterKnife.bind(this, view);
         return view;

@@ -8,7 +8,7 @@
 
 
     <!-- Find A Service Activity -->
-    <string name="greeting_txt">What can we help you take care of?</string>
+    <string name="greeting_txt">What can we help you find today?</string>
     <string name="enter_location">Enter a location</string>
     <string name="use_current_location">Use current location</string>
 
