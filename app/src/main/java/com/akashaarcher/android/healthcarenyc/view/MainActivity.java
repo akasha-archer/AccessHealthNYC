@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     FindServiceFragment findServiceFragment = new FindServiceFragment();
     UserProfileFragment profileFragment = new UserProfileFragment();
+    FavoritesFragment favoritesFragment = new FavoritesFragment();
     CalculateCostFragment calculateCostFragment = new CalculateCostFragment();
 
 
@@ -44,6 +45,10 @@ public class MainActivity extends AppCompatActivity {
 
                             case R.id.action_profile:
                                 launchFragment(profileFragment);
+                                break;
+
+                            case R.id.action_favorite:
+                                launchFragment(favoritesFragment);
                                 break;
 
                             case R.id.action_calculate:

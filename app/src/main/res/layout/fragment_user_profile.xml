@@ -63,28 +63,57 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
+    <LinearLayout
         android:id="@+id/tabs_container"
+        android:layout_margin="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:layout_below="@id/user_greeting_container">
 
-        <android.support.design.widget.TabLayout
-            android:id="@+id/user_profile_tabs"
+        <TextView
+            android:id="@+id/profile_name_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/cerulean_blue"
-            app:tabIndicatorColor="@android:color/white"
-            app:tabIndicatorHeight="4dp"
-            app:tabMode="fixed"
-            app:tabSelectedTextColor="@color/white"
-            app:tabTextColor="@color/blue_gray_light" />
+            android:layout_marginTop="8dp"
+            android:text="Name"/>
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/user_profile_view_pager"
+        <EditText
+            android:id="@+id/profile_name_edit"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@id/user_profile_tabs" />
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
 
-    </RelativeLayout>
+        <TextView
+            android:id="@+id/profile_income_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Income"/>
+
+        <EditText
+            android:id="@+id/profile_income_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/profile_family_size_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Family Size"/>
+
+        <EditText
+            android:id="@+id/profile_family_size_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"/>
+
+
+
+
+
+
+    </LinearLayout>
 </RelativeLayout>

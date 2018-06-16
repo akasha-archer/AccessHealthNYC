@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="120dp"
+                                    app:cardBackgroundColor="@color/card_view_background"
+                                    app:cardCornerRadius="4dp"
+                                    app:cardElevation="2dp"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginLeft="12dp"
+                                    android:layout_marginRight="12dp"
+                                    android:layout_marginTop="12dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_padding_small">
+
+        <TextView
+            android:id="@+id/facility_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/primary_text"
+            android:textSize="@dimen/facility_name"
+            android:text="Location Name"
+            />
+
+        <TextView
+            android:id="@+id/facility_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/facility_secondary_text_size"
+            android:text="Address goes here, street name"
+            android:paddingTop="2dp" />
+
+        <TextView
+            android:id="@+id/facility_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/secondary_text"
+            android:textSize="@dimen/facility_secondary_text_size"
+            android:text="888-123-4567"
+            android:paddingTop="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/facility_distance_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 miles away"
+                android:textColor="@color/primary_text"
+                android:textSize="@dimen/facility_distance" />
+
+
+            <ImageView
+                android:id="@+id/search_favorite_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/ic_action_favorite" />
+
+            <ImageView
+                android:id="@+id/search_share_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/share_btn" />
+
+
+            <ImageView
+                android:id="@+id/search_maps_button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="8dp"
+                android:src="@drawable/ic_action_location" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

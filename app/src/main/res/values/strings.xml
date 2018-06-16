@@ -36,6 +36,7 @@
     <!-- Bottom Navigation Bar-->
     <string name="nav_search">Search</string>
     <string name="nav_profile">Profile</string>
+    <string name="nav_favorite">Favorites</string>
     <string name="nav_calculator">Calculator</string>
 
     <!--LOCATIONS-->

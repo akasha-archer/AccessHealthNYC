@@ -16,6 +16,13 @@
         android:title="@string/nav_search"
         app:showAsAction="ifRoom" />
 
+    <item
+        android:id="@+id/action_favorite"
+        android:enabled="true"
+        android:icon="@drawable/ic_favorite"
+        android:title="@string/nav_favorite"
+        app:showAsAction="ifRoom" />
+
 
     <item
         android:id="@+id/action_calculate"

@@ -27,14 +27,14 @@ public class SignUpActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        setUpBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent= new Intent(SignUpActivity.this, UserProfileActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
+//        setUpBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent intent= new Intent(SignUpActivity.this, UserProfileActivity.class);
+//                startActivity(intent);
+//                finish();
+//            }
+//        });
 
         homeFindServiceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
