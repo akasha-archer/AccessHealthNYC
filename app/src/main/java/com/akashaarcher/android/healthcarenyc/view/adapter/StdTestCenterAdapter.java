@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.akashaarcher.android.healthcarenyc.R;
-import com.akashaarcher.android.healthcarenyc.model.HealthFacility;
+import com.akashaarcher.android.healthcarenyc.model.WomensHealthFacility;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import java.util.List;
 
 public class StdTestCenterAdapter extends RecyclerView.Adapter<StdTestCenterAdapter.StdTestCenterViewHolder> {
 
-    List<HealthFacility> healthFacilities = new ArrayList<>();
+    List<WomensHealthFacility> healthFacilities = new ArrayList<>();
 
     public StdTestCenterAdapter() {
     }
@@ -36,7 +36,7 @@ public class StdTestCenterAdapter extends RecyclerView.Adapter<StdTestCenterAdap
 
     @Override
     public void onBindViewHolder(@NonNull StdTestCenterAdapter.StdTestCenterViewHolder holder, int position) {
-        HealthFacility facility = healthFacilities.get(position);
+        WomensHealthFacility facility = healthFacilities.get(position);
         holder.bind(facility);
     }
 
@@ -46,7 +46,7 @@ public class StdTestCenterAdapter extends RecyclerView.Adapter<StdTestCenterAdap
         return healthFacilities.size();
     }
 
-    public void setData(List<HealthFacility> listResults) {
+    public void setData(List<WomensHealthFacility> listResults) {
         this.healthFacilities = listResults;
         notifyDataSetChanged();
     }
@@ -74,7 +74,7 @@ public class StdTestCenterAdapter extends RecyclerView.Adapter<StdTestCenterAdap
         }
 
 
-        public void bind(HealthFacility facility) {
+        public void bind(WomensHealthFacility facility) {
             stdFacilityNameTv.setText(facility.getHealthFacilityName());
             stdFacilityAddressTv.setText(facility.getHealthFacilityAddress());
             stdFacilityPhoneTv.setText(facility.getHealthFacilityPhone());

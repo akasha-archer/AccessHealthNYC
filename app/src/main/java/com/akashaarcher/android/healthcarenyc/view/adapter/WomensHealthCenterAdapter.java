@@ -9,7 +9,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.akashaarcher.android.healthcarenyc.R;
-import com.akashaarcher.android.healthcarenyc.model.HealthFacility;
+import com.akashaarcher.android.healthcarenyc.model.WomensHealthFacility;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +20,7 @@ import java.util.List;
 
 public class WomensHealthCenterAdapter extends RecyclerView.Adapter<WomensHealthCenterAdapter.WomensHealthCenterViewHolder> {
 
-    List<HealthFacility> healthFacilities = new ArrayList<>();
+    List<WomensHealthFacility> healthFacilities = new ArrayList<>();
 
     public WomensHealthCenterAdapter() {
     }
@@ -36,7 +36,7 @@ public class WomensHealthCenterAdapter extends RecyclerView.Adapter<WomensHealth
 
     @Override
     public void onBindViewHolder(@NonNull WomensHealthCenterViewHolder holder, int position) {
-        HealthFacility facility = healthFacilities.get(position);
+        WomensHealthFacility facility = healthFacilities.get(position);
         holder.bind(facility);
     }
 
@@ -46,7 +46,7 @@ public class WomensHealthCenterAdapter extends RecyclerView.Adapter<WomensHealth
         return healthFacilities.size();
     }
 
-    public void setData(List<HealthFacility> listResults) {
+    public void setData(List<WomensHealthFacility> listResults) {
         this.healthFacilities = listResults;
         notifyDataSetChanged();
     }
@@ -74,7 +74,7 @@ public class WomensHealthCenterAdapter extends RecyclerView.Adapter<WomensHealth
         }
 
 
-        public void bind(HealthFacility facility) {
+        public void bind(WomensHealthFacility facility) {
             womensFacilityNameTv.setText(facility.getHealthFacilityName());
             womensFacilityAddressTv.setText(facility.getHealthFacilityAddress());
             womensFacilityPhoneTv.setText(facility.getHealthFacilityPhone());
