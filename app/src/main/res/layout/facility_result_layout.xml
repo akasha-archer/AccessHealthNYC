@@ -19,7 +19,7 @@
         android:padding="@dimen/layout_padding_small">
 
         <TextView
-            android:id="@+id/facility_name"
+            android:id="@+id/facility_name_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/primary_text"
@@ -28,7 +28,7 @@
             />
 
         <TextView
-            android:id="@+id/facility_address"
+            android:id="@+id/facility_address_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/secondary_text"
@@ -37,7 +37,7 @@
             android:paddingTop="2dp" />
 
         <TextView
-            android:id="@+id/facility_phone"
+            android:id="@+id/facility_phone_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/secondary_text"
@@ -46,7 +46,7 @@
             android:paddingTop="2dp" />
 
         <TextView
-            android:id="@+id/facility_website"
+            android:id="@+id/facility_website_local"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/secondary_text"
@@ -60,7 +60,7 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/facility_distance_info"
+                android:id="@+id/facility_distance_info_local"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="2 miles away"
@@ -69,14 +69,14 @@
 
 
             <ImageView
-                android:id="@+id/search_favorite_button"
+                android:id="@+id/search_favorite_button_local"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="12dp"
                 android:src="@drawable/ic_action_favorite" />
 
             <ImageView
-                android:id="@+id/search_share_button"
+                android:id="@+id/search_share_button_local"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="8dp"
@@ -84,7 +84,7 @@
 
 
             <ImageView
-                android:id="@+id/search_maps_button"
+                android:id="@+id/search_maps_button_local"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:layout_marginLeft="8dp"
