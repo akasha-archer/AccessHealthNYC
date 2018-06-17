@@ -1,6 +1,7 @@
 package com.akashaarcher.android.healthcarenyc.model;
 
 import android.arch.persistence.room.Entity;
+import android.arch.persistence.room.PrimaryKey;
 
 import com.akashaarcher.android.healthcarenyc.R;
 
@@ -12,7 +13,8 @@ import java.util.List;
 
 @Entity
 public class WomensHealthFacility {
-
+    @PrimaryKey
+    private int id;
     private String womenHealthFacilityName;
     private Integer womenHealthFacilityAddress;
     private Integer womenHealthFacilityWebsite;
@@ -26,6 +28,16 @@ public class WomensHealthFacility {
         this.womenHealthFacilityPhone = womenHealthFacilityPhone;
     }
 
+    public WomensHealthFacility() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getWomenHealthFacilityName() {
         return womenHealthFacilityName;
@@ -59,7 +71,7 @@ public class WomensHealthFacility {
         this.womenHealthFacilityPhone = womenHealthFacilityPhone;
     }
 
-
+    // Data prepared ahead of time for database. To be displayed in RV when user selects Women's Health Facility option
     public static WomensHealthFacility[] populateDataBase() {
 
         return new WomensHealthFacility[]{
