@@ -1,9 +1,6 @@
 package com.akashaarcher.android.healthcarenyc.view;
 
-import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,13 +10,11 @@ import android.widget.Toast;
 import com.akashaarcher.android.healthcarenyc.R;
 import com.akashaarcher.android.healthcarenyc.data.network.HhcClient;
 import com.akashaarcher.android.healthcarenyc.model.HhcFacility;
-import com.akashaarcher.android.healthcarenyc.model.WomensHealthFacility;
+import com.akashaarcher.android.healthcarenyc.model.HealthFacility;
 import com.akashaarcher.android.healthcarenyc.view.adapter.HhcFacilityAdapter;
-import com.akashaarcher.android.healthcarenyc.view.adapter.StdTestCenterAdapter;
-import com.akashaarcher.android.healthcarenyc.view.adapter.WomensHealthCenterAdapter;
+import com.akashaarcher.android.healthcarenyc.view.adapter.HealthFacilityAdapter;
 import com.akashaarcher.android.healthcarenyc.viewmodel.FacilitySearchResultsViewModel;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -39,7 +34,7 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
     private final String CHILD_HEALTH = "Child Health Center";
     private final String NURSING_HOME = "Nursing Home";
     private final String STD_TESTING = "STD Testing";
-    private final String WOMEN_HEALTH = "Women";
+    private final String WOMEN_HEALTH = "OB Gyn and Birth Control";
 
     @BindView(R.id.search_results_rv)
     RecyclerView facilityResultsRv;
@@ -47,7 +42,7 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
     private FacilitySearchResultsViewModel facilitySearchResultsViewModel;
 
     private HhcFacilityAdapter hhcAdapter = new HhcFacilityAdapter();
-    private WomensHealthCenterAdapter womensHealthAdapter = new WomensHealthCenterAdapter();
+    private HealthFacilityAdapter healthFacilityAdapter = new HealthFacilityAdapter();
 
     private static final String TAG = FacilitySearchResultsActivity.class.getSimpleName();
 
@@ -56,13 +51,10 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_facility_search_results);
 
-        Toast.makeText(this, "women's health: On create", Toast.LENGTH_LONG).show();
-
         ButterKnife.bind(this);
         facilitySearchResultsViewModel = new FacilitySearchResultsViewModel(HhcClient.getInstance());
 
         String service = getIntent().getStringExtra(FindServiceFragment.SERVICE_KEY);
-        Log.d(TAG, "Service selected is: " + service);
 
         facilityResultsRv.setLayoutManager(new LinearLayoutManager(this));
 
@@ -80,14 +72,14 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
                 getNursingHomeFacilities();
                 break;
             case STD_TESTING:
-                // facilityResultsRv.setAdapter(new StdTestCenterAdapter());
+                List<HealthFacility> stdTestingHealthFacilities = facilitySearchResultsViewModel.getStdTestingFacilities();
+                healthFacilityAdapter.setData(stdTestingHealthFacilities);
+                facilityResultsRv.setAdapter(healthFacilityAdapter);
                 break;
             case WOMEN_HEALTH:
-                List<WomensHealthFacility> womensHealthFacilities = facilitySearchResultsViewModel.getWomensHealthFacilities();
-                womensHealthAdapter.setData(womensHealthFacilities);
-                facilityResultsRv.setAdapter(womensHealthAdapter);
-                Log.d(TAG, "Women's Health selected: List size = " + womensHealthFacilities.size());
-                Toast.makeText(this, "women's health", Toast.LENGTH_LONG).show();
+                List<HealthFacility> womensHealthFacilities = facilitySearchResultsViewModel.getWomensHealthFacilities();
+                healthFacilityAdapter.setData(womensHealthFacilities);
+                facilityResultsRv.setAdapter(healthFacilityAdapter);
                 break;
         }
     }
