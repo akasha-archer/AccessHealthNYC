@@ -10,7 +10,6 @@ import android.widget.TextView;
 
 import com.akashaarcher.android.healthcarenyc.R;
 import com.akashaarcher.android.healthcarenyc.model.HhcFacility;
-import com.akashaarcher.android.healthcarenyc.view.viewholder.HhcFacilityViewHolder;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -51,11 +50,8 @@ public class HhcFacilityAdapter extends RecyclerView.Adapter<HhcFacilityAdapter.
     }
 
 
-    //Viewholder
-
     public class HhcFacilityViewHolder extends RecyclerView.ViewHolder {
 
-        //@BindView(R.id.hhc_facility_name)
         private TextView hhcFacilityname;
         private TextView hhcFacilityStreet;
         private TextView hhcFacilityCity;

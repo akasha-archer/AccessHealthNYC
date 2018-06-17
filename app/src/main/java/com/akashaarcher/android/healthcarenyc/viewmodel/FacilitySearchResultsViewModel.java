@@ -18,7 +18,6 @@ public class FacilitySearchResultsViewModel extends ViewModel {
         this.client = client;
     }
 
-
     public Call<List<HhcFacility>> getHhcAcuteHospitals() {
         return client.getService().getHhcAcuteLocations();
     }
@@ -35,20 +34,5 @@ public class FacilitySearchResultsViewModel extends ViewModel {
         return client.getService().getHhcHealthCenterLocations();
     }
 
-   /* public Single<List<HhcFacility>> getHhcAcuteHospitals() {
-        return client.getService().getHhcAcuteLocations();
-    }
-
-    public Single<List<HhcFacility>> getHhcChildCareHospitals() {
-        return client.getService().getHhcChildCareLocations();
-    }
-
-    public Single<List<HhcFacility>> getHhcNursingHomes() {
-        return client.getService().getHhcNursingHomeLocations();
-    }
-
-    public Single<List<HhcFacility>> getHhcHealthCenters() {
-        return client.getService().getHhcHealthCenterLocations();
-    }*/
 
 }

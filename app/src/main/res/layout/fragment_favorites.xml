@@ -33,7 +33,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/secondary_text"
             android:textSize="@dimen/facility_secondary_text_size"
-            android:text="Address goes here, street name"
+            android:text="Address goes here, street healthFacilityName"
             android:paddingTop="2dp" />
 
         <TextView
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/secondary_text"
             android:textSize="@dimen/facility_secondary_text_size"
-            android:text="www.website.com"
+            android:text="www.healthFacilityWebsite.com"
             android:paddingTop="2dp" />
 
         <LinearLayout
