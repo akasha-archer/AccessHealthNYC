@@ -75,10 +75,10 @@ public class WomensHealthCenterAdapter extends RecyclerView.Adapter<WomensHealth
 
 
         public void bind(WomensHealthFacility facility) {
-            womensFacilityNameTv.setText(facility.getHealthFacilityName());
-            womensFacilityAddressTv.setText(facility.getHealthFacilityAddress());
-            womensFacilityPhoneTv.setText(facility.getHealthFacilityPhone());
-            womensFacilityWebsiteTv.setText(facility.getHealthFacilityWebsite());
+            womensFacilityNameTv.setText(facility.getWomenHealthFacilityName());
+            womensFacilityAddressTv.setText(facility.getWomenHealthFacilityAddress());
+            womensFacilityPhoneTv.setText(facility.getWomenHealthFacilityPhone());
+            womensFacilityWebsiteTv.setText(facility.getWomenHealthFacilityWebsite());
         }
     }
 }
