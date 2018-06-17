@@ -12,7 +12,6 @@
     <string name="enter_location">Enter a location</string>
     <string name="use_current_location">Use current location</string>
 
-
     <!-- Services Spinner options -->
     <string-array name="medical_services">
         <item>Please select a service</item>
@@ -36,6 +35,7 @@
     <string name="nav_profile">Profile</string>
     <string name="nav_favorite">Favorites</string>
     <string name="nav_calculator">Calculator</string>
+
 
     <!--LOCATIONS-->
 
@@ -79,7 +79,6 @@
     <string name="ryan_clinic_web">http://ryanhealth.org</string>
     <string name="callen_lorde_web">http://callen-lorde.org</string>
     <string name="charles_wang_web">http://www.cbwchc.org</string>
-
     <!--
     RYAN center locations: http://ryanhealth.org/ryan-center-locations/
     William F. Ryan Community Health Center - UWS
@@ -147,5 +146,6 @@
 
     <!--STD Testing - website-->
     <string name="health_dept_sexual_website">https://www1.nyc.gov/site/doh/services/sexual-health-clinics.page</string>
+
 
 </resources>

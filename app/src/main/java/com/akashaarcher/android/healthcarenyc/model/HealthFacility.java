@@ -6,48 +6,48 @@ package com.akashaarcher.android.healthcarenyc.model;
 
 public class HealthFacility {
 
-    private String name;
-    private Integer address;
-    private String website;
-    private String phone;
+    private String healthFacilityName;
+    private Integer healthFacilityAddress;
+    private String healthFacilityWebsite;
+    private String healthFacilityPhone;
 
 
     public HealthFacility(String name, Integer address, String website, String phone) {
-        this.name = name;
-        this.address = address;
-        this.website = website;
-        this.phone = phone;
+        this.healthFacilityName = name;
+        this.healthFacilityAddress = address;
+        this.healthFacilityWebsite = website;
+        this.healthFacilityPhone = phone;
     }
 
-    public String getName() {
-        return name;
+    public String getHealthFacilityName() {
+        return healthFacilityName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setHealthFacilityName(String healthFacilityName) {
+        this.healthFacilityName = healthFacilityName;
     }
 
-    public Integer getAddress() {
-        return address;
+    public Integer getHealthFacilityAddress() {
+        return healthFacilityAddress;
     }
 
-    public void setAddress(Integer address) {
-        this.address = address;
+    public void setHealthFacilityAddress(Integer healthFacilityAddress) {
+        this.healthFacilityAddress = healthFacilityAddress;
     }
 
-    public String getWebsite() {
-        return website;
+    public String getHealthFacilityWebsite() {
+        return healthFacilityWebsite;
     }
 
-    public void setWebsite(String website) {
-        this.website = website;
+    public void setHealthFacilityWebsite(String healthFacilityWebsite) {
+        this.healthFacilityWebsite = healthFacilityWebsite;
     }
 
-    public String getPhone() {
-        return phone;
+    public String getHealthFacilityPhone() {
+        return healthFacilityPhone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
+    public void setHealthFacilityPhone(String healthFacilityPhone) {
+        this.healthFacilityPhone = healthFacilityPhone;
     }
 }

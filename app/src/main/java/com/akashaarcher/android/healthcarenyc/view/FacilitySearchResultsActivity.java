@@ -19,11 +19,6 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import io.reactivex.Scheduler;
-import io.reactivex.android.schedulers.AndroidSchedulers;
-import io.reactivex.disposables.CompositeDisposable;
-import io.reactivex.functions.Consumer;
-import io.reactivex.schedulers.Schedulers;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -52,8 +47,6 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
 
     private List<HhcFacility> hhcFacilities = new ArrayList<>();
 
-    private CompositeDisposable disposables = new CompositeDisposable();
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -67,16 +60,16 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
         String service = getIntent().getStringExtra(FindServiceFragment.SERVICE_KEY);
         switch (service) {
             case GENERAL_HOSPITAL:
-                getFacilities();
+                getAcuteFacilities();
                 break;
             case HEALTH_CENTER:
-                // load
+                 getHealthCenterFacilities();
                 break;
             case CHILD_HEALTH:
-                // load
+                getChildHealthFacilities();
                 break;
             case NURSING_HOME:
-                // load
+                getNursingHomeFacilities();
                 break;
             case STD_TESTING:
                 facilityResultsRv.setAdapter(new StdTestCenterAdapter());
@@ -85,12 +78,9 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
                 facilityResultsRv.setAdapter(new WomensHealthCenterAdapter());
                 break;
         }
-
     }
 
-    private void getFacilities() {
-
-        facilitySearchResultsViewModel = new FacilitySearchResultsViewModel(HhcClient.getInstance());
+    private void getAcuteFacilities() {
         Call<List<HhcFacility>> call = facilitySearchResultsViewModel.getHhcAcuteHospitals();
         call.enqueue(new Callback<List<HhcFacility>>() {
             @Override
@@ -104,37 +94,62 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<List<HhcFacility>> listResults, Throwable t) {
                 Log.d(TAG, "There was a failure" + t.getMessage());
-
             }
         });
     }
 
+    private void getHealthCenterFacilities() {
+        Call<List<HhcFacility>> call = facilitySearchResultsViewModel.getHhcHealthCenters();
+        call.enqueue(new Callback<List<HhcFacility>>() {
+            @Override
+            public void onResponse(Call<List<HhcFacility>> listResults, Response<List<HhcFacility>> response) {
+                List<HhcFacility> hhcFacilities = response.body();
+                adapter.setData(hhcFacilities);
+                facilityResultsRv.setAdapter(adapter);
+                Log.d(TAG, "In onResponse, list size: " + hhcFacilities.size());
+            }
 
-//    private void getFacilities() {
-//        disposables.add(
-//                facilitySearchResultsViewModel.getHhcAcuteHospitals()
-//                        .subscribeOn(Schedulers.io())
-//                        .observeOn(AndroidSchedulers.mainThread())
-//                        .subscribe(new Consumer<List<HhcFacility>>() {
-//                            @Override
-//                            public void accept(List<HhcFacility> listResults) throws Exception {
-//                                adapter.setData(listResults);
-//                                Log.d(TAG, "In onSuccess, list size: " + listResults.size());
-//                            }
-//                        }, new Consumer<Throwable>() {
-//                            @Override
-//                            public void accept(Throwable throwable) throws Exception {
-//                                throwable.printStackTrace();
-//                                Log.d(TAG, "In onError " + throwable.getMessage());
-//                            }
-//                        }));
-//    }
+            @Override
+            public void onFailure(Call<List<HhcFacility>> listResults, Throwable t) {
+                Log.d(TAG, "There was a failure" + t.getMessage());
+            }
+        });
+    }
 
+    private void getChildHealthFacilities() {
+        Call<List<HhcFacility>> call = facilitySearchResultsViewModel.getHhcChildCareHospitals();
+        call.enqueue(new Callback<List<HhcFacility>>() {
+            @Override
+            public void onResponse(Call<List<HhcFacility>> listResults, Response<List<HhcFacility>> response) {
+                List<HhcFacility> hhcFacilities = response.body();
+                adapter.setData(hhcFacilities);
+                facilityResultsRv.setAdapter(adapter);
+                Log.d(TAG, "In onResponse, list size: " + hhcFacilities.size());
+            }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        disposables.clear();
+            @Override
+            public void onFailure(Call<List<HhcFacility>> listResults, Throwable t) {
+                Log.d(TAG, "There was a failure" + t.getMessage());
+            }
+        });
+    }
+
+    private void getNursingHomeFacilities() {
+        Call<List<HhcFacility>> call = facilitySearchResultsViewModel.getHhcNursingHomes();
+        call.enqueue(new Callback<List<HhcFacility>>() {
+            @Override
+            public void onResponse(Call<List<HhcFacility>> listResults, Response<List<HhcFacility>> response) {
+                List<HhcFacility> hhcFacilities = response.body();
+                adapter.setData(hhcFacilities);
+                facilityResultsRv.setAdapter(adapter);
+                Log.d(TAG, "In onResponse, list size: " + hhcFacilities.size());
+            }
+
+            @Override
+            public void onFailure(Call<List<HhcFacility>> listResults, Throwable t) {
+                Log.d(TAG, "There was a failure" + t.getMessage());
+            }
+        });
     }
 
 
