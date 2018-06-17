@@ -9,9 +9,9 @@ import com.google.gson.annotations.SerializedName;
 
 public class HhcFacility {
 
-    @SerializedName("borough")
-    @Expose
+
     private String borough;
+
     @SerializedName("facility_name")
     @Expose
     private String facilityName;
@@ -21,17 +21,17 @@ public class HhcFacility {
     @SerializedName("location_1_city")
     @Expose
     private String location1City;
-    @SerializedName("location_1_location")
+    @SerializedName("location_1_address")
     @Expose
-    private String location1Location;
+    private String location1Address;
     @SerializedName("location_1_state")
     @Expose
     private String location1State;
     @SerializedName("location_1_zip")
     @Expose
     private String location1Zip;
-    @SerializedName("phone")
-    @Expose
+
+
     private String phone;
 
     public HhcFacility() {
@@ -62,19 +62,19 @@ public class HhcFacility {
     }
 
     public String getLocation1City() {
-        return location1City;
+        return location1City + ",";
     }
 
     public void setLocation1City(String location1City) {
         this.location1City = location1City;
     }
 
-    public String getLocation1Location() {
-        return location1Location;
+    public String getLocation1Address() {
+        return location1Address + ",";
     }
 
-    public void setLocation1Location(String location1Location) {
-        this.location1Location = location1Location;
+    public void setLocation1Address(String location1Address) {
+        this.location1Address = location1Address;
     }
 
     public String getLocation1State() {

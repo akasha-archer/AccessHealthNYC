@@ -2,15 +2,13 @@ package com.akashaarcher.android.healthcarenyc.view;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.EditText;
 
 import com.akashaarcher.android.healthcarenyc.R;
-import com.akashaarcher.android.healthcarenyc.view.adapter.UserProfileViewPagerAdapter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -22,13 +20,14 @@ import butterknife.Unbinder;
 
 public class UserProfileFragment extends Fragment {
 
-    private UserProfileViewPagerAdapter pagerAdapter;
+    @BindView(R.id.profile_name_edit)
+    EditText userNameEt;
 
-    @BindView(R.id.user_profile_tabs)
-    TabLayout tabLayout;
+    @BindView(R.id.profile_income_edit)
+    EditText familyIncomeEt;
 
-    @BindView(R.id.user_profile_view_pager)
-    ViewPager viewPager;
+    @BindView(R.id.profile_family_size_edit)
+    EditText familySizeEt;
 
     private Unbinder unbinder;
 
@@ -43,10 +42,6 @@ public class UserProfileFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_user_profile, container, false);
         unbinder = ButterKnife.bind(this, view);
-
-        pagerAdapter = new UserProfileViewPagerAdapter(getActivity().getSupportFragmentManager());
-        viewPager.setAdapter(pagerAdapter);
-        tabLayout.setupWithViewPager(viewPager);
 
         return view;
     }
