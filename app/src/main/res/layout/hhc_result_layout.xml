@@ -111,12 +111,12 @@
                 android:src="@drawable/share_btn"/>
 
 
-            <ImageView
-                android:id="@+id/search_maps_button"
-                android:layout_width="28dp"
-                android:layout_height="28dp"
-                android:layout_marginRight="12dp"
-                android:src="@drawable/ic_action_location"/>
+            <!--<ImageView-->
+                <!--android:id="@+id/search_maps_button"-->
+                <!--android:layout_width="28dp"-->
+                <!--android:layout_height="28dp"-->
+                <!--android:layout_marginRight="12dp"-->
+                <!--android:src="@drawable/ic_action_location"/>-->
 
         </LinearLayout>
 

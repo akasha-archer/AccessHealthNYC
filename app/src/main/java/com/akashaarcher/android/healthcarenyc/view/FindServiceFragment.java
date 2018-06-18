@@ -19,8 +19,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.akashaarcher.android.healthcarenyc.R;
-import com.akashaarcher.android.healthcarenyc.data.database.UserEntity;
-import com.akashaarcher.android.healthcarenyc.viewmodel.FindServiceViewModel;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -37,12 +35,6 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
 
     @BindView(R.id.services_spinner)
     Spinner servicesSpinner;
-
-    @BindView(R.id.location_input)
-    EditText locationInputEt;
-
-    @BindView(R.id.current_location_btn)
-    ImageView currLocationIv;
 
     @BindView(R.id.find_service_btn)
     Button findServicesBtn;
@@ -100,7 +92,7 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.find_service_btn:
-                if (serviceSpinnerValue.equals("Please choose a service")) {
+                if (serviceSpinnerValue.equals("Please select a service")) {
                     Toast.makeText(getActivity(), "Please select a service to continue", Toast.LENGTH_SHORT).show();
                 } else {
                     Intent intent = new Intent(view.getContext(), FacilitySearchResultsActivity.class);

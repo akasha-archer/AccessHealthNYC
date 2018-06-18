@@ -38,21 +38,4 @@ public class HhcClient {
         return hhcService;
     }
 
-//    public Observable<List<HhcFacility>> getHhcAcuteHospitals() {
-//        return hhcService.getHhcAcuteLocations();
-//    }
-//
-//    public Observable<List<HhcFacility>> getHhcChildCareHospitals() {
-//        return hhcService.getHhcChildCareLocations();
-//    }
-//
-//    public Observable<List<HhcFacility>> getHhcNursingHomes() {
-//        return hhcService.getHhcNursingHomeLocations();
-//    }
-//
-//    public Observable<List<HhcFacility>> getHhcHealthCenters() {
-//        return hhcService.getHhcHealthCenterLocations();
-//    }
-
-
 }

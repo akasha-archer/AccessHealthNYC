@@ -97,12 +97,12 @@ public class HealthFacilityAdapter extends RecyclerView.Adapter<HealthFacilityAd
                     // Sharing facility info via appropriate application on user's phone
                     String location = view.getResources().getString(facility.getHealthFacilityAddress());
                     String phoneNum = view.getResources().getString(facility.getHealthFacilityPhone());
-                    String websiteurl = view.getResources().getString(facility.getHealthFacilityWebsite());
+                    String websiteUrl = view.getResources().getString(facility.getHealthFacilityWebsite());
 
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
                     sendIntent.putExtra(Intent.EXTRA_TEXT, "Check out this health clinic location: " + facility.getHealthFacilityName() + ". "
-                            + location + ". " + "Phone number: " + phoneNum + " and website: " + websiteurl);
+                            + location + ". " + "Phone number: " + phoneNum + " and website: " + websiteUrl);
                     sendIntent.setType("text/plain");
                     view.getContext().startActivity(sendIntent);
                 }

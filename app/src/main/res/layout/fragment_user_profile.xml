@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
 
     <RelativeLayout
@@ -20,9 +20,8 @@
             android:text="Hello"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="32sp" />
+            android:textSize="32sp"/>
 
-        <!-- android:gravity="center_horizontal"-->
 
         <Button
             android:id="@+id/edit_profile_btn"
@@ -37,39 +36,36 @@
             android:paddingRight="@dimen/button_left_right_padding"
             android:text="@string/edit_profile_btn"
             android:textColor="@color/cerulean_blue"
-            android:textSize="16sp" />
+            android:textSize="16sp"/>
 
         <ImageView
             android:id="@+id/approve_profile_edit"
             android:layout_width="32dp"
             android:layout_height="32dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/user_greeting"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:src="@drawable/done" />
+            android:layout_alignTop="@+id/edit_profile_btn"
+            android:layout_marginStart="154dp"
+            android:visibility="invisible"
+            android:src="@drawable/done"/>
 
         <ImageView
             android:id="@+id/cancel_profile_edit"
             android:layout_width="32dp"
             android:layout_height="32dp"
-            android:layout_below="@id/user_greeting"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:layout_toRightOf="@id/approve_profile_edit"
-            android:src="@drawable/clear" />
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/edit_profile_btn"
+            android:layout_marginEnd="142dp"
+            android:visibility="invisible"
+            android:src="@drawable/clear"/>
 
     </RelativeLayout>
 
-    <LinearLayout
-        android:id="@+id/tabs_container"
-        android:layout_margin="8dp"
+    <RelativeLayout
+        android:id="@+id/user_info_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@id/user_greeting_container">
+        android:layout_below="@id/user_greeting_container"
+        android:layout_margin="8dp">
 
         <TextView
             android:id="@+id/profile_name_title"
@@ -82,6 +78,7 @@
             android:id="@+id/profile_name_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/profile_name_title"
             android:textSize="14sp"/>
 
         <TextView
@@ -89,12 +86,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:layout_below="@id/profile_name_edit"
             android:text="Income"/>
 
         <EditText
             android:id="@+id/profile_income_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/profile_income_title"
             android:textSize="14sp"/>
 
         <TextView
@@ -102,18 +101,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+            android:layout_below="@id/profile_income_edit"
             android:text="Family Size"/>
 
         <EditText
             android:id="@+id/profile_family_size_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@id/profile_family_size_title"
             android:textSize="14sp"/>
 
-
-
-
-
-
-    </LinearLayout>
+    </RelativeLayout>
 </RelativeLayout>
