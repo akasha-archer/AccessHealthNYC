@@ -1,5 +1,7 @@
 package com.akashaarcher.android.healthcarenyc.view;
 
+import android.arch.lifecycle.Observer;
+import android.arch.lifecycle.ViewModelProviders;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -17,6 +19,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.akashaarcher.android.healthcarenyc.R;
+import com.akashaarcher.android.healthcarenyc.data.database.UserEntity;
+import com.akashaarcher.android.healthcarenyc.viewmodel.FindServiceViewModel;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -45,6 +49,8 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
 
     private String serviceSpinnerValue = "";
     public static String SERVICE_KEY = "Service Key";
+
+    private FindServiceViewModel findServiceViewModel;
 
     private Unbinder unbinder;
 
@@ -78,12 +84,25 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
         });
 
         setListeners();
+        initViewModel();
         return view;
     }
 
-    @Override
-    public void onViewCreated(View view, Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
+
+    // Updates the greeting in the MainActivity with name the user provides in his profile
+    private void initViewModel() {
+        final Observer<UserEntity> userObserver =
+                new Observer <UserEntity>() {
+                    @Override
+                    public void onChanged(@Nullable UserEntity userEntity) {
+                        String userDisplayName = findServiceViewModel.getUserInput();
+                        userGreetingTv.setText("Hello " + " " + userDisplayName);
+                    }
+                };
+
+//        findServiceViewModel = ViewModelProviders.of(getActivity())
+//                .get(FindServiceViewModel.class);
+//        findServiceViewModel.users.observe(getActivity(), userObserver);
     }
 
 

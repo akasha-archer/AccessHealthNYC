@@ -141,4 +141,106 @@
     <string name="health_dept_sexual_website">https://www1.nyc.gov/site/doh/services/sexual-health-clinics.page</string>
 
 
+    <!--Calculate Medical Costs-->
+    <string name="your_fee">According to your selections, your HHC fee level is:</string>
+    <string name="fam_size_spinner_prompt">Family Size</string>
+    <string name="click_here_to_calculate_medical_fees">Click Here to calculate medical fees.</string>
+    <string name="how_many_family_members_live_in_your_household">How many family members live in your household?</string>
+    <string name="total_family_income">Total Family Income</string>
+    <string name="what_is_your_total_family_income_level">What is your TOTAL family income level?</string>
+    <string name="determine_eligibility">Sliding Scale Eligibility</string>
+    <string name="check_fee_level">Check Fee Level</string>
+    <string name="view_medical_costs">View Medical Costs</string>
+
+    <!--Family Size-->
+    <string-array name="family_size">
+        <item>Select:</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7 or more</item>
+    </string-array>
+
+    <!--Income Levels-->
+    <string-array name="fam_size_1">
+        <item>Select:</item>
+        <item name="fam_one_level_one">$0-$16,335</item>
+        <item name="fam_one_level_two">$16,336-$21,780</item>
+        <item name="fam_one_level_three">$21,781-$27,225</item>
+        <item name="fam_one_level_four">$27,226-$32,670</item>
+        <item name="fam_one_level_five">$32,671-$38,115</item>
+        <item name="fam_one_level_six">$38,116-$43,560</item>
+        <item name="fam_one_level_seven">$43,561+</item>
+    </string-array>
+
+    <string-array name="fam_size_2">
+        <item>Select:</item>
+        <item name="fam_two_level_one">$0-$22,065</item>
+        <item name="fam_two_level_two">$22,066-$29,420</item>
+        <item name="fam_two_level_three">$29,421-$36,775</item>
+        <item name="fam_two_level_four">$36,776-$44,130</item>
+        <item name="fam_two_level_five">$44,131-$51,485</item>
+        <item name="fam_two_level_six">$51,486-$58,840</item>
+    </string-array>
+
+    <string-array name="fam_size_3">
+        <item>Select:</item>
+        <item name="fam_three_level_one">$0-$27,795</item>
+        <item name="fam_three_level_two">$27,796-$37,060</item>
+        <item name="fam_three_level_three">$37,061-$46,325</item>
+        <item name="fam_three_level_four">$46,326-$55,590</item>
+        <item name="fam_three_level_five">$55,591-$64,855</item>
+        <item name="fam_three_level_six">$64,856-$74,120</item>
+        <item name="fam_three_level_seven">$74,121+</item>
+    </string-array>
+
+    <string-array name="fam_size_4">
+        <item>Select</item>
+        <item name="fam_four_level_one">$0-$33,525</item>
+        <item name="fam_four_level_two">$33,526-$44,700</item>
+        <item name="fam_four_level_three">$44,701-$55,875</item>
+        <item name="fam_four_level_four">$55,876-$67,050</item>
+        <item name="fam_four_level_five">$67,051-$78,225</item>
+        <item name="fam_four_level_six">$78,226-$89,400</item>
+        <item name="fam_four_level_seven">$89,401+</item>
+    </string-array>
+
+    <string-array name="fam_size_5">
+        <item>Select:</item>
+        <item name="fam_five_level_one">$0-$39,255</item>
+        <item name="fam_five_level_two">$39,256-$52,340</item>
+        <item name="fam_five_level_three">$52,341-$65,425</item>
+        <item name="fam_five_level_four">$65,426-$78,510</item>
+        <item name="fam_five_level_five">$78,511-$91,595</item>
+        <item name="fam_five_level_six">$91,596-$104,680</item>
+        <item name="fam_five_level_seven">$104,681+</item>
+    </string-array>
+
+    <string-array name="fam_size_6">
+        <item>Select:</item>
+        <item name="fam_six_level_one">$0-$44,985</item>
+        <item name="fam_six_level_two">$44,986-$59,980</item>
+        <item name="fam_six_level_three">$59,981-$74,975</item>
+        <item name="fam_six_level_four">$74,976-$89,970</item>
+        <item name="fam_six_level_five">$89,971-$104,965</item>
+        <item name="fam_six_level_six">$104,966-$119,960</item>
+        <item name="fam_six_level_seven">$119,961+</item>
+    </string-array>
+
+    <string-array name="fam_size_7">
+        <item>Select:</item>
+        <item name="fam_seven_level_one">$0-$50,715</item>
+        <item name="fam_seven_level_two">$50,716-$67,620</item>
+        <item name="fam_seven_level_three">$67,621-$84,525</item>
+        <item name="fam_seven_level_four">$84,526-$101,430</item>
+        <item name="fam_seven_level_five">$101,431-$118,335</item>
+        <item name="fam_seven_level_six">$118,336-$135,240</item>
+        <item name="fam_seven_level_seven">$135,241+</item>
+    </string-array>
+
+
+
 </resources>
