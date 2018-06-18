@@ -1,14 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
+
+    <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="COST CALCULATOR"
-        />
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:weightSum="4">
 
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/tv_question_household_size"
+                android:text="@string/how_many_family_members_live_in_your_household"
+                android:textSize="@dimen/buttons_home_text_size"
+                android:textColor="@color/cerulean_blue"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"/>
+
+            <Spinner
+                android:id="@+id/spn_family_size"
+                android:layout_gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:entries="@array/family_size"
+                android:spinnerMode="dialog"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/tv_question_income"
+                android:text="@string/what_is_your_total_family_income_level"
+                android:textSize="@dimen/buttons_home_text_size"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:textColor="@color/cerulean_blue"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+
+            <Spinner
+                android:id="@+id/spn_income"
+                android:layout_gravity="center"
+                android:inputType="number"
+                android:hint="@string/total_family_income"
+                android:textSize="@dimen/buttons_home_text_size"
+                android:gravity="center_horizontal"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="wrap_content"
+                android:entries="@array/fam_size_1"
+                android:spinnerMode="dialog"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:weightSum="7">
+
+            <TextView
+                android:id="@+id/tv_question_fee_level"
+                android:text="@string/your_fee"
+                android:textSize="@dimen/buttons_home_text_size"
+                android:textColor="@color/cerulean_blue"
+                android:gravity="center_vertical"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/tv_fee_level"
+                android:text="1"
+                android:textColor="@android:color/holo_blue_dark"
+                android:gravity="center_horizontal|center_vertical"
+                android:textSize="@dimen/fee_level_text_size"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_calculate_fees"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/buttons_home_text_size"
+                android:padding="@dimen/buttons_home_padding"
+                android:text="@string/view_medical_costs"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@drawable/corner_rounding_blue"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </LinearLayout>

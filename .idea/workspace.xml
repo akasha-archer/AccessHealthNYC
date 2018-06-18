@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2931e040-699d-48f6-a8c9-1e8d450ce8f7" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserEntity.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -20,65 +21,15 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/WomensHealthFacility.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/StdTestCenterAdapter.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/WomensHealthCenterAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/facility_result_layout.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/facility_result_layout.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/SignUpViewModel.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-17-39-090.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-17-39-090.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-26-57-571.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-26-57-571.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-27-59-194.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-27-59-194.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-50-47-385.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-50-47-385.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-50-55-696.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-15-50-55-696.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-40-40-401.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-40-40-401.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-40-43-165.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-40-43-165.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-56-58-923.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-56-58-923.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-58-44-595.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-16-58-44-595.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-00-04-131.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-00-04-131.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-01-23-423.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-01-23-423.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-02-04-322.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-02-04-322.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-02-37-453.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-02-37-453.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-04-06-971.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-04-06-971.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-06-04-197.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-06-04-197.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-06-48-402.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-06-48-402.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-08-11-450.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-08-11-450.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-09-24-126.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-09-24-126.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-10-29-511.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-10-29-511.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-12-38-220.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-12-38-220.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-29-57-019.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-29-57-019.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-31-54-848.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-31-54-848.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-33-15-819.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-33-15-819.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-39-41-297.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-39-41-297.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-49-02-687.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-17-49-02-687.rawproto" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-18-25-41-956.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/build/android-profile/profile-2018-06-17-18-25-41-956.rawproto" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -101,96 +52,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HhcFacilityAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HhcFacilityAdapter.java">
+      <file leaf-file-name="FacilitySearchResultsActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HealthFacilityAdapter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="68" />
               <folding>
-                <element signature="e#1339#1340#0" expanded="true" />
-                <element signature="e#1385#1386#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="facility_result_layout.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/facility_result_layout.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="317">
+              <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dimens.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <file leaf-file-name="FindServiceFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="colors.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HealthFacility.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HealthFacility.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="500">
+              <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
               <folding>
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1579#1580#0" expanded="true" />
-                <element signature="e#1621#1622#0" expanded="true" />
+                <element signature="e#3148#3492#0" expanded="true" />
+                <element signature="e#3491#3492#0" expanded="true" />
+                <element signature="e#3845#3846#0" expanded="true" />
+                <element signature="e#3901#3902#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -199,65 +92,77 @@
       <file leaf-file-name="FacilitySearchResultsViewModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
+            <state relative-caret-position="885">
               <caret line="71" column="195" lean-forward="false" selection-start-line="71" selection-start-column="195" selection-end-line="71" selection-end-column="195" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1362#1395#0" expanded="true" />
-                <element signature="e#1397#1419#0" expanded="true" />
-                <element signature="e#1421#1454#0" expanded="true" />
-                <element signature="e#1560#1597#0" expanded="true" />
-                <element signature="e#1599#1621#0" expanded="true" />
-                <element signature="e#1623#1656#0" expanded="true" />
-                <element signature="e#1759#1793#0" expanded="true" />
-                <element signature="e#1795#1817#0" expanded="true" />
-                <element signature="e#1819#1852#0" expanded="true" />
-                <element signature="e#1957#1993#0" expanded="true" />
-                <element signature="e#1995#2017#0" expanded="true" />
-                <element signature="e#2019#2052#0" expanded="true" />
-                <element signature="e#2162#2203#0" expanded="true" />
-                <element signature="e#2205#2227#0" expanded="true" />
-                <element signature="e#2229#2262#0" expanded="true" />
-                <element signature="e#2357#2385#0" expanded="true" />
-                <element signature="e#2387#2409#0" expanded="true" />
-                <element signature="e#2411#2445#0" expanded="true" />
-                <element signature="e#2562#2604#0" expanded="true" />
-                <element signature="e#2606#2631#0" expanded="true" />
-                <element signature="e#2633#2670#0" expanded="true" />
-                <element signature="e#2786#2831#0" expanded="true" />
-                <element signature="e#2833#2858#0" expanded="true" />
-                <element signature="e#2860#2901#0" expanded="true" />
-                <element signature="e#3017#3069#0" expanded="true" />
-                <element signature="e#3071#3096#0" expanded="true" />
-                <element signature="e#3098#3139#0" expanded="true" />
-                <element signature="e#3424#3458#0" expanded="true" />
-                <element signature="e#3460#3495#0" expanded="true" />
-                <element signature="e#3624#3661#0" expanded="true" />
-                <element signature="e#3663#3698#0" expanded="true" />
-                <element signature="e#3825#3860#0" expanded="true" />
-                <element signature="e#3862#3897#0" expanded="true" />
-                <element signature="e#4022#4060#0" expanded="true" />
-                <element signature="e#4062#4097#0" expanded="true" />
-                <element signature="e#4228#4267#0" expanded="true" />
-                <element signature="e#4269#4304#0" expanded="true" />
-                <element signature="e#4430#4464#0" expanded="true" />
-                <element signature="e#4466#4501#0" expanded="true" />
                 <element signature="e#4628#4663#0" expanded="true" />
                 <element signature="e#4665#4700#0" expanded="true" />
+                <element signature="e#4702#4735#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FacilitySearchResultsActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
+      <file leaf-file-name="MedicalServicesCostActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="81" column="68" lean-forward="false" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+            <state relative-caret-position="60">
+              <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindServiceViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#774#775#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculateCostFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1255">
+              <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+              <folding>
+                <element signature="e#1917#2366#0" expanded="true" />
+                <element signature="e#2365#2366#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spinner_item_text_centered.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item_text_centered.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_calculate_cost.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="447">
+              <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
           </provider>
         </entry>
       </file>
@@ -268,6 +173,7 @@
       <list>
         <option value="layoutResourceFile_vertical" />
         <option value="Interface" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -2126,17 +2032,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/SignUpViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserFavoritesFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/viewholder_facility_results.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_user_profile.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/UserProfileViewPagerAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserProfileFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserProfileActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserInfoFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FavoritesFragment.java" />
@@ -2145,7 +2040,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcApi.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SearchResultsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility_search_results.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFacility.java" />
@@ -2157,7 +2051,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
         <option value="$PROJECT_DIR$/build.gradle" />
@@ -2173,16 +2066,31 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HealthFacility.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/facility_result_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/User.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/UserEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserEntity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserInfoDatabase.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/CalculateCostViewModel.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/spinner_item_text_centered.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
+    <option name="x" value="69" />
     <option name="y" value="23" />
-    <option name="width" value="1724" />
-    <option name="height" value="1029" />
+    <option name="width" value="1673" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -2203,24 +2111,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AccessHealthNYC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AccessHealthNYC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="AccessHealthNYC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AccessHealthNYC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -2251,6 +2141,22 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="healthcarenyc" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="healthcarenyc" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="healthcarenyc" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2259,14 +2165,6 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="healthcarenyc" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="healthcarenyc" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-              <item name="adapter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
@@ -2300,6 +2198,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AccessHealthNYC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessHealthNYC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="AccessHealthNYC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AccessHealthNYC" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2307,9 +2223,10 @@
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1529182862268" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1529279677507" />
     <property name="device.picker.selection" value="FA7C51A02131" />
     <property name="android.profiler.active" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -2496,7 +2413,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="23" width="1724" height="1029" extended-state="0" />
+    <frame x="69" y="23" width="1673" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2510,13 +2427,12 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39517015" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40468228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19678953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3677278" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37870473" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3151441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25083613" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -2529,6 +2445,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37870473" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2539,80 +2456,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_user_info.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/tab_user_favorites.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/UserProfileViewPagerAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="56" lean-forward="false" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/akashaarcher/android/healthcarenyc/view/UserProfileActivity_ViewBinding.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserProfileActivity.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserInfoFragment.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserProfileFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserFavoritesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FavoritesFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_favorites.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="86" column="38" lean-forward="false" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/akashaarcher/android/healthcarenyc/view/viewholder/HhcFacilityViewHolder_ViewBinding.java" />
     <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/akashaarcher/android/healthcarenyc/R.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -2649,28 +2498,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/viewholder/HealthCenterViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/viewholder/HhcFacilityViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthCenterAdapter.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" lean-forward="false" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -2709,14 +2539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/WomensFacilityResultsActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/WomensFacilityResultsActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -2729,74 +2552,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/SignUpViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="11" lean-forward="false" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/WomensHealthFacilityViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="53" lean-forward="false" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="43" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityDao.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityRepository.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/WomensHealthFacilityDatabase.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/WomensHealthFacilityViewModel.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFacility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="514">
@@ -2811,14 +2573,6 @@
             <element signature="e#1768#1769#0" expanded="false" />
             <element signature="e#1805#1806#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="15" lean-forward="false" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2838,21 +2592,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/StdTestCenterAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/StdTestCenterAdapter.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
           <folding>
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1385#1386#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="false" />
+            <element signature="e#1385#1386#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2893,72 +2640,240 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/akashaarcher/android/healthcarenyc/data/database/UserDao_Impl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-815">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/com/akashaarcher/android/healthcarenyc/ExampleInstrumentedTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/SignUpViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#355#356#0" expanded="false" />
+            <element signature="e#413#414#0" expanded="false" />
+            <element signature="e#649#650#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserInfoDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="11" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#841#842#0" expanded="false" />
+            <element signature="e#873#874#0" expanded="false" />
+            <element signature="e#904#905#0" expanded="false" />
+            <element signature="e#931#932#0" expanded="false" />
+            <element signature="e#971#972#0" expanded="false" />
+            <element signature="e#1003#1004#0" expanded="false" />
+            <element signature="e#1036#1037#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1109#1110#0" expanded="false" />
+            <element signature="e#1145#1146#0" expanded="false" />
+            <element signature="e#1182#1183#0" expanded="false" />
+            <element signature="e#1215#1216#0" expanded="false" />
+            <element signature="e#1267#1268#0" expanded="false" />
+            <element signature="e#1311#1312#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FavoritesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="40" lean-forward="false" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+          <folding>
+            <element signature="e#3148#3492#0" expanded="true" />
+            <element signature="e#3491#3492#0" expanded="true" />
+            <element signature="e#3845#3846#0" expanded="true" />
+            <element signature="e#3901#3902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="317">
+          <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item_text_centered.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1255">
+          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
+          <folding>
+            <element signature="e#1917#2366#0" expanded="true" />
+            <element signature="e#2365#2366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/CalculateCostViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
+        <state relative-caret-position="885">
           <caret line="71" column="195" lean-forward="false" selection-start-line="71" selection-start-column="195" selection-end-line="71" selection-end-column="195" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1362#1395#0" expanded="true" />
-            <element signature="e#1397#1419#0" expanded="true" />
-            <element signature="e#1421#1454#0" expanded="true" />
-            <element signature="e#1560#1597#0" expanded="true" />
-            <element signature="e#1599#1621#0" expanded="true" />
-            <element signature="e#1623#1656#0" expanded="true" />
-            <element signature="e#1759#1793#0" expanded="true" />
-            <element signature="e#1795#1817#0" expanded="true" />
-            <element signature="e#1819#1852#0" expanded="true" />
-            <element signature="e#1957#1993#0" expanded="true" />
-            <element signature="e#1995#2017#0" expanded="true" />
-            <element signature="e#2019#2052#0" expanded="true" />
-            <element signature="e#2162#2203#0" expanded="true" />
-            <element signature="e#2205#2227#0" expanded="true" />
-            <element signature="e#2229#2262#0" expanded="true" />
-            <element signature="e#2357#2385#0" expanded="true" />
-            <element signature="e#2387#2409#0" expanded="true" />
-            <element signature="e#2411#2445#0" expanded="true" />
-            <element signature="e#2562#2604#0" expanded="true" />
-            <element signature="e#2606#2631#0" expanded="true" />
-            <element signature="e#2633#2670#0" expanded="true" />
-            <element signature="e#2786#2831#0" expanded="true" />
-            <element signature="e#2833#2858#0" expanded="true" />
-            <element signature="e#2860#2901#0" expanded="true" />
-            <element signature="e#3017#3069#0" expanded="true" />
-            <element signature="e#3071#3096#0" expanded="true" />
-            <element signature="e#3098#3139#0" expanded="true" />
-            <element signature="e#3424#3458#0" expanded="true" />
-            <element signature="e#3460#3495#0" expanded="true" />
-            <element signature="e#3624#3661#0" expanded="true" />
-            <element signature="e#3663#3698#0" expanded="true" />
-            <element signature="e#3825#3860#0" expanded="true" />
-            <element signature="e#3862#3897#0" expanded="true" />
-            <element signature="e#4022#4060#0" expanded="true" />
-            <element signature="e#4062#4097#0" expanded="true" />
-            <element signature="e#4228#4267#0" expanded="true" />
-            <element signature="e#4269#4304#0" expanded="true" />
-            <element signature="e#4430#4464#0" expanded="true" />
-            <element signature="e#4466#4501#0" expanded="true" />
             <element signature="e#4628#4663#0" expanded="true" />
             <element signature="e#4665#4700#0" expanded="true" />
+            <element signature="e#4702#4735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="81" column="68" lean-forward="false" selection-start-line="81" selection-start-column="68" selection-end-line="81" selection-end-column="68" />
+        <state relative-caret-position="390">
+          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+          <folding />
         </state>
       </provider>
     </entry>
