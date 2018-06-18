@@ -1,5 +1,6 @@
 package com.akashaarcher.android.healthcarenyc.view.adapter;
 
+import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -7,6 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.akashaarcher.android.healthcarenyc.R;
 import com.akashaarcher.android.healthcarenyc.model.HealthFacility;
@@ -74,11 +76,34 @@ public class HealthFacilityAdapter extends RecyclerView.Adapter<HealthFacilityAd
         }
 
 
-        public void bind(HealthFacility facility) {
+        public void bind(final HealthFacility facility) {
             healthFacilityNameTv.setText(facility.getHealthFacilityName());
             healthFacilityAddressTv.setText(facility.getHealthFacilityAddress());
             healthFacilityPhoneTv.setText(facility.getHealthFacilityPhone());
             healthFacilityWebsiteTv.setText(facility.getHealthFacilityWebsite());
+
+            healthFaveFacilityIv.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    // add to favorites
+                    Toast.makeText(view.getContext(), facility.getHealthFacilityName() + " has been added to your favorites.", Toast.LENGTH_SHORT).show();
+                }
+            });
+
+            healthShareFacilityIv.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    // Sharing facility info via appropriate application on user's phone
+                    Intent sendIntent = new Intent();
+                    sendIntent.setAction(Intent.ACTION_SEND);
+                    sendIntent.putExtra(Intent.EXTRA_TEXT, "Check out this health clinic location: " + facility.getHealthFacilityName() + ". "
+                            + facility.getHealthFacilityAddress()  + ". " + "Phone number: " + facility.getHealthFacilityPhone()
+                            + " and website: " + facility.getHealthFacilityWebsite());
+                    sendIntent.setType("text/plain");
+                    view.getContext().startActivity(sendIntent);
+                }
+            });
+
         }
     }
 }
