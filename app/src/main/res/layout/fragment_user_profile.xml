@@ -13,7 +13,7 @@
 
 
         <TextView
-            android:id="@+id/user_greeting"
+            android:id="@+id/profile_user_greeting"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingTop="60dp"
@@ -27,7 +27,7 @@
             android:id="@+id/edit_profile_btn"
             android:layout_width="wrap_content"
             android:layout_height="@dimen/button_height"
-            android:layout_below="@id/user_greeting"
+            android:layout_below="@id/profile_user_greeting"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="8dp"
             android:background="@drawable/corner_rounding_white"
@@ -45,8 +45,8 @@
             android:layout_alignParentStart="true"
             android:layout_alignTop="@+id/edit_profile_btn"
             android:layout_marginStart="154dp"
-            android:visibility="invisible"
-            android:src="@drawable/done"/>
+            android:src="@drawable/done"
+            android:visibility="invisible"/>
 
         <ImageView
             android:id="@+id/cancel_profile_edit"
@@ -55,8 +55,8 @@
             android:layout_alignParentEnd="true"
             android:layout_alignTop="@+id/edit_profile_btn"
             android:layout_marginEnd="142dp"
-            android:visibility="invisible"
-            android:src="@drawable/clear"/>
+            android:src="@drawable/clear"
+            android:visibility="invisible"/>
 
     </RelativeLayout>
 
@@ -72,43 +72,84 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:text="Name"/>
+            android:text="Name"
+            android:textColor="@color/blue_gray_deep"/>
+
+        <TextView
+            android:id="@+id/profile_name_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/profile_name_edit"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/profile_name_title"
+            android:layout_marginStart="6dp"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"/>
 
         <EditText
             android:id="@+id/profile_name_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/profile_name_title"
+            android:textColor="@color/primary_text"
+            android:visibility="invisible"
             android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/profile_income_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_below="@id/profile_name_edit"
-            android:text="Income"/>
+            android:layout_marginTop="16dp"
+            android:text="Income"
+            android:textColor="@color/blue_gray_deep"/>
+
+        <TextView
+            android:id="@+id/profile_income_set"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/profile_income_edit"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/profile_name_edit"
+            android:layout_marginStart="6dp"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"/>
 
         <EditText
             android:id="@+id/profile_income_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/profile_income_title"
+            android:textColor="@color/primary_text"
+            android:visibility="invisible"
             android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/profile_family_size_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
             android:layout_below="@id/profile_income_edit"
-            android:text="Family Size"/>
+            android:layout_marginTop="16dp"
+            android:text="Family Size"
+            android:textColor="@color/blue_gray_deep"/>
+
+        <TextView
+            android:id="@+id/profile_family_size_set"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/profile_family_size_edit"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:textColor="@color/primary_text"
+            android:textSize="14sp"/>
 
         <EditText
             android:id="@+id/profile_family_size_edit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@id/profile_family_size_title"
+            android:textColor="@color/primary_text"
+            android:visibility="invisible"
             android:textSize="14sp"/>
 
     </RelativeLayout>
