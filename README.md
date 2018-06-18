@@ -6,6 +6,7 @@ AccessHealth (in progress) provides uninsured and low income New Yorkers with a 
 
 ### Current Challenges & Improvements to Come:
 
+- Difficulty getting data to display in recyclerview when using RxJava
 - Sorting search results by distance to user's selected location.
 - Database for user profile data (will use the Cupboard library). 
 - Database for local data. Will look deeper into if storing data in a local database is better than using lists in the ViewModel.
