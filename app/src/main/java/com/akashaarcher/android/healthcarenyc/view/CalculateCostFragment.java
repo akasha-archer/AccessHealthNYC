@@ -1,5 +1,6 @@
 package com.akashaarcher.android.healthcarenyc.view;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -46,6 +47,7 @@ public class CalculateCostFragment extends Fragment {
     @BindView(R.id.btn_calculate_fees)
     Button btnCalculateFees;
 
+    public static String FEE_KEY = "Fee Level";
     private int feeLevel;
 
     private Unbinder unbinder;
@@ -74,11 +76,9 @@ public class CalculateCostFragment extends Fragment {
         btnCalculateFees.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Fragment fragment = new MedicalCostsFragment();
-//                Bundle bundle = new Bundle();
-//                bundle.putInt("User_Fee_Level", feeLevel);
-//                fragment.setArguments(bundle);
-//                getFragmentManager().beginTransaction().replace(R.id.fl_fragment_host, fragment).commit();
+                Intent intent = new Intent(getActivity(), MedicalServicesCostActivity.class);
+                intent.putExtra(FEE_KEY, feeLevel);
+                startActivity(intent);
             }
         });
 

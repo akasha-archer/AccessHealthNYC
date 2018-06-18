@@ -11,7 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2931e040-699d-48f6-a8c9-1e8d450ce8f7" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserEntity.java" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
@@ -21,14 +20,14 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/SignUpViewModel.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +54,8 @@
       <file leaf-file-name="FacilitySearchResultsActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="68" />
+            <state relative-caret-position="-111">
+              <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,26 +63,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <file leaf-file-name="MedicalServicesCostActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FindServiceFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
+            <state relative-caret-position="469">
+              <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
               <folding>
-                <element signature="e#3148#3492#0" expanded="true" />
-                <element signature="e#3491#3492#0" expanded="true" />
-                <element signature="e#3845#3846#0" expanded="true" />
-                <element signature="e#3901#3902#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,59 +78,93 @@
       <file leaf-file-name="FacilitySearchResultsViewModel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="71" column="195" lean-forward="false" selection-start-line="71" selection-start-column="195" selection-end-line="71" selection-end-column="195" />
+            <state relative-caret-position="308">
+              <caret line="25" column="5" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <element signature="e#4628#4663#0" expanded="true" />
-                <element signature="e#4665#4700#0" expanded="true" />
-                <element signature="e#4702#4735#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#587#588#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MedicalServicesCostActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
+      <file leaf-file-name="MedicalServicesCostViewModel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/MedicalServicesCostViewModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
+            <state relative-caret-position="345">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HhcFeeLevelCosts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFeeLevelCosts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#563#564#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#831#832#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HhcClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+              <folding>
+                <element signature="e#1074#1075#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HhcService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindServiceViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java">
+      <file leaf-file-name="FindServiceFragment.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            <state relative-caret-position="-99">
+              <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#3024#3025#0" expanded="true" />
+                <element signature="e#3080#3081#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculateCostFragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
+      <file leaf-file-name="spinner_item_multiline.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item_multiline.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1255">
-              <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-              <folding>
-                <element signature="e#1917#2366#0" expanded="true" />
-                <element signature="e#2365#2366#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spinner_item_text_centered.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item_text_centered.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="70" lean-forward="false" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+            <state relative-caret-position="105">
+              <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -153,12 +173,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fragment_calculate_cost.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml">
+      <file leaf-file-name="activity_medical_services_cost.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_medical_services_cost.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="116" column="44" lean-forward="false" selection-start-line="116" selection-start-column="44" selection-end-line="116" selection-end-column="44" />
-              <folding />
+            <state relative-caret-position="130">
+              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+              <folding>
+                <element signature="e#506#534#0" expanded="true" />
+                <element signature="e#954#982#0" expanded="true" />
+                <element signature="e#1341#1411#0" expanded="true" />
+                <element signature="e#1441#1474#0" expanded="true" />
+                <element signature="e#1610#1638#0" expanded="true" />
+                <element signature="e#1934#1967#0" expanded="true" />
+                <element signature="e#1997#2030#0" expanded="true" />
+                <element signature="e#2166#2194#0" expanded="true" />
+              </folding>
             </state>
           </provider>
           <provider editor-type-id="android-designer2">
@@ -171,8 +200,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile_vertical" />
         <option value="Interface" />
+        <option value="layoutResourceFile_vertical" />
         <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
@@ -2032,24 +2061,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/UserInfoFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FavoritesFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/network/HhcApi.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/HhcApi.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcApi.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SearchResultsActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindAServiceViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_facility_search_results.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_favorites.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFacility.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/hhc_result_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/viewholder/HhcFacilityViewHolder.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HhcFacilityAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" />
@@ -2074,15 +2094,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserRepository.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/database/UserDao.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/SignUpActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_calculate_cost.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/CalculateCostViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/spinner_item_text_centered.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/spinner_item_multiline.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFeeLevelData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFeeLevelCosts.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/MedicalServicesCostViewModel.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_medical_services_cost.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java" />
       </list>
     </option>
   </component>
@@ -2117,6 +2146,11 @@
             <path>
               <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
             </path>
             <path>
               <item name="AccessHealthNYC" type="1abcf292:AndroidViewProjectNode" />
@@ -2427,7 +2461,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40468228" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40346536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2456,48 +2490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/apt/debug/com/akashaarcher/android/healthcarenyc/view/viewholder/HhcFacilityViewHolder_ViewBinding.java" />
-    <entry file="file://$PROJECT_DIR$/app/build/generated/source/r/debug/com/akashaarcher/android/healthcarenyc/R.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="31" column="16" lean-forward="false" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_facility_search_results.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/hhc_result_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
-          <folding>
-            <marker date="1529257702000" expanded="false" signature="3205:3242" ph="&quot;14sp&quot;" />
-          </folding>
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/viewholder/HealthCenterViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/viewholder/HhcFacilityViewHolder.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthCenterAdapter.java" />
@@ -2509,17 +2501,6 @@
         </state>
       </provider>
       <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
         <state />
       </provider>
     </entry>
@@ -2746,14 +2727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_up.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -2784,36 +2757,15 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="87" column="20" lean-forward="false" selection-start-line="87" selection-start-column="20" selection-end-line="87" selection-end-column="20" />
-          <folding>
-            <element signature="e#3148#3492#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="e#3845#3846#0" expanded="true" />
-            <element signature="e#3901#3902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FindServiceViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="34" lean-forward="false" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#774#775#0" expanded="false" />
+            <element signature="e#827#828#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="170" column="61" lean-forward="false" selection-start-line="170" selection-start-column="61" selection-end-line="170" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2828,17 +2780,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1255">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding>
-            <element signature="e#1917#2366#0" expanded="true" />
-            <element signature="e#2365#2366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/CalculateCostViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2847,33 +2788,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="71" column="195" lean-forward="false" selection-start-line="71" selection-start-column="195" selection-end-line="71" selection-end-column="195" />
+        <state relative-caret-position="720">
+          <caret line="60" column="10" lean-forward="false" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="65" lean-forward="false" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="156" column="73" lean-forward="false" selection-start-line="156" selection-start-column="73" selection-end-line="156" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/CalculateCostFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <element signature="e#4628#4663#0" expanded="true" />
-            <element signature="e#4665#4700#0" expanded="true" />
-            <element signature="e#4702#4735#0" expanded="true" />
+            <element signature="e#1996#2297#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/spinner_item_multiline.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="68" />
+        <state relative-caret-position="105">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding>
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/model/HhcFeeLevelCosts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#563#564#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#831#832#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/FacilitySearchResultsViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="25" column="5" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/data/network/HhcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="37" column="51" lean-forward="false" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/viewmodel/MedicalServicesCostViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_medical_services_cost.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+          <folding>
+            <element signature="e#506#534#0" expanded="true" />
+            <element signature="e#954#982#0" expanded="true" />
+            <element signature="e#1341#1411#0" expanded="true" />
+            <element signature="e#1441#1474#0" expanded="true" />
+            <element signature="e#1610#1638#0" expanded="true" />
+            <element signature="e#1934#1967#0" expanded="true" />
+            <element signature="e#1997#2030#0" expanded="true" />
+            <element signature="e#2166#2194#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/MedicalServicesCostActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FacilitySearchResultsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="68" lean-forward="false" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding />
+        <state relative-caret-position="-111">
+          <caret line="53" column="8" lean-forward="false" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/FindServiceFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-99">
+          <caret line="51" column="4" lean-forward="false" selection-start-line="51" selection-start-column="4" selection-end-line="51" selection-end-column="4" />
+          <folding>
+            <element signature="e#3024#3025#0" expanded="true" />
+            <element signature="e#3080#3081#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

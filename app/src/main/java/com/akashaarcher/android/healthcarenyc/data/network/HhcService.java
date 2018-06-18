@@ -2,6 +2,7 @@ package com.akashaarcher.android.healthcarenyc.data.network;
 
 
 import com.akashaarcher.android.healthcarenyc.model.HhcFacility;
+import com.akashaarcher.android.healthcarenyc.model.HhcFeeLevelCosts;
 
 import java.util.List;
 
@@ -31,6 +32,10 @@ public interface HhcService {
     //Neighborhood Health Center facilities  >> use %26 for '&'
     @GET("resource/w7a6-9xrz.json?facility_type=Diagnostic%20%26%20Treatment%20Center")
     Call<List<HhcFacility>> getHhcHealthCenterLocations();
+
+    //Costs for services based on fee levels
+    @GET("resource/ujy7-x749.json")
+    Call<List<HhcFeeLevelCosts>> getServiceCosts();
 
 }
 

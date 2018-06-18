@@ -34,7 +34,7 @@ public class HhcClient {
         hhcService = retrofit.create(HhcService.class);
     }
 
-    public HhcService getService() {
+    public HhcService getHhcService() {
         return hhcService;
     }
 

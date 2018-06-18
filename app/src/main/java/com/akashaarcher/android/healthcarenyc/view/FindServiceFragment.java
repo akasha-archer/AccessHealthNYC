@@ -49,9 +49,7 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
 
     private String serviceSpinnerValue = "";
     public static String SERVICE_KEY = "Service Key";
-
-    private FindServiceViewModel findServiceViewModel;
-
+    
     private Unbinder unbinder;
 
     @Override
@@ -84,25 +82,7 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
         });
 
         setListeners();
-        initViewModel();
         return view;
-    }
-
-
-    // Updates the greeting in the MainActivity with name the user provides in his profile
-    private void initViewModel() {
-        final Observer<UserEntity> userObserver =
-                new Observer <UserEntity>() {
-                    @Override
-                    public void onChanged(@Nullable UserEntity userEntity) {
-                        String userDisplayName = findServiceViewModel.getUserInput();
-                        userGreetingTv.setText("Hello " + " " + userDisplayName);
-                    }
-                };
-
-//        findServiceViewModel = ViewModelProviders.of(getActivity())
-//                .get(FindServiceViewModel.class);
-//        findServiceViewModel.users.observe(getActivity(), userObserver);
     }
 
 
