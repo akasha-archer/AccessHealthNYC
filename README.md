@@ -7,6 +7,7 @@ AccessHealth (in progress) provides uninsured and low income New Yorkers with a 
 ### Current Challenges & Improvements to Come:
 
 - Sorting search results by distance to user's selected location.
+- Database for user profile data (will use the Cupboard library). 
 - Database for local data. Will look deeper into if storing data in a local database is better than using lists in the ViewModel.
 - Room Database for HHC facility search results. Info is not likely to change frequently so this can easily be stored on the user's phone for more efficient retrieval.
 - Room Database / LiveData for storing user's favorites.
