@@ -10,6 +10,7 @@ import com.akashaarcher.android.healthcarenyc.model.HhcFacility;
 import java.util.ArrayList;
 import java.util.List;
 
+import io.reactivex.Observable;
 import retrofit2.Call;
 
 

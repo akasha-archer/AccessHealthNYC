@@ -6,6 +6,7 @@ import com.akashaarcher.android.healthcarenyc.model.HhcFeeLevelCosts;
 
 import java.util.List;
 
+import io.reactivex.Observable;
 import io.reactivex.Single;
 import retrofit2.Call;
 import retrofit2.http.GET;

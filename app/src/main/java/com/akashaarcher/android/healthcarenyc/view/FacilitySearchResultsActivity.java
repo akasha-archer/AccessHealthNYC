@@ -15,10 +15,17 @@ import com.akashaarcher.android.healthcarenyc.view.adapter.HhcFacilityAdapter;
 import com.akashaarcher.android.healthcarenyc.view.adapter.HealthFacilityAdapter;
 import com.akashaarcher.android.healthcarenyc.viewmodel.FacilitySearchResultsViewModel;
 
+import org.reactivestreams.Subscription;
+
 import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+import io.reactivex.Observer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.functions.Consumer;
+import io.reactivex.schedulers.Schedulers;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -45,6 +52,9 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
     private HealthFacilityAdapter healthFacilityAdapter = new HealthFacilityAdapter();
 
     private static final String TAG = FacilitySearchResultsActivity.class.getSimpleName();
+
+
+    private Subscription subscription;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,6 +93,7 @@ public class FacilitySearchResultsActivity extends AppCompatActivity {
                 break;
         }
     }
+
 
     private void getAcuteFacilities() {
         Call<List<HhcFacility>> call = facilitySearchResultsViewModel.getHhcAcuteHospitals();
