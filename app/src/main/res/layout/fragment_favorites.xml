@@ -57,37 +57,39 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
 
-            <TextView
-                android:id="@+id/fave_facility_distance_info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="2 miles away"
-                android:textColor="@color/primary_text"
-                android:textSize="@dimen/facility_distance" />
+            <!--<TextView-->
+                <!--android:id="@+id/fave_facility_distance_info"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="2 miles away"-->
+                <!--android:textColor="@color/primary_text"-->
+                <!--android:textSize="@dimen/facility_distance" />-->
 
 
             <ImageView
                 android:id="@+id/fave_favorite_button"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="12dp"
-                android:src="@drawable/ic_action_favorite" />
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/ic_favorite_filled" />
 
             <ImageView
                 android:id="@+id/fave_share_button"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="8dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="12dp"
                 android:src="@drawable/share_btn" />
 
 
             <ImageView
                 android:id="@+id/fave_maps_button"
-                android:layout_width="20dp"
-                android:layout_height="20dp"
-                android:layout_marginLeft="8dp"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginRight="12dp"
                 android:src="@drawable/ic_action_location" />
 
 

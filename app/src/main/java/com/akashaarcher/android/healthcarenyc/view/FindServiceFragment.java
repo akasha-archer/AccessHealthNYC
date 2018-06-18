@@ -49,7 +49,7 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
 
     private String serviceSpinnerValue = "";
     public static String SERVICE_KEY = "Service Key";
-    
+
     private Unbinder unbinder;
 
     @Override
