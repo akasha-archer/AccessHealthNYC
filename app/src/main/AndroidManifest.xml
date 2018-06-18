@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.FacilitySearchResultsActivity" />
+        <activity android:name=".view.MedicalServicesCostActivity" />
         <activity android:name=".view.MainActivity" />
     </application>
 

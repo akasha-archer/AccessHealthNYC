@@ -152,6 +152,10 @@
     <string name="check_fee_level">Check Fee Level</string>
     <string name="view_medical_costs">View Medical Costs</string>
 
+    <string name="please_select_a_service">Please Select a Service:</string>
+    <string name="based_on_your_hhc_fee_level_the_cost_of_this_service_will_be">Based on your HHC fee level, the cost of this service will be:</string>
+    <string name="select_a_service_below">Select a Service Below</string>
+
     <!--Family Size-->
     <string-array name="family_size">
         <item>Select:</item>
