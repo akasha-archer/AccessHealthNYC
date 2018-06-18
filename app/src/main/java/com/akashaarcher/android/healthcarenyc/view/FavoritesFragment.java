@@ -26,4 +26,12 @@ public class FavoritesFragment extends Fragment {
 
         return view;
     }
+
+    public void onResume(){
+        super.onResume();
+
+        // Change title of Fragment
+        ((MainActivity) getActivity())
+                .setActionBarTitle(R.string.favorites_action_bar_title);
+    }
 }

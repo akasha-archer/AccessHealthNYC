@@ -100,8 +100,14 @@ public class FindServiceFragment extends Fragment implements View.OnClickListene
                     startActivity(intent);
                 }
         }
+    }
 
+    public void onResume(){
+        super.onResume();
 
+        // Change title of Fragment
+        ((MainActivity) getActivity())
+                .setActionBarTitle(R.string.find_service_action_bar_title);
     }
 
 }

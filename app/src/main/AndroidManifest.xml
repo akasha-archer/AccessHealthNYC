@@ -18,8 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.FacilitySearchResultsActivity" />
-        <activity android:name=".view.MedicalServicesCostActivity" />
+        <activity android:name=".view.FacilitySearchResultsActivity"
+                  android:label="@string/search_results"
+            />
+        <activity android:name=".view.MedicalServicesCostActivity"
+                  android:label="@string/view_medical_costs_action_bar_title"
+            />
     </application>
 
 </manifest>

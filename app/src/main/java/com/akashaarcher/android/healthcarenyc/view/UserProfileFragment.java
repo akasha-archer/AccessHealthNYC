@@ -138,4 +138,12 @@ public class UserProfileFragment extends Fragment implements View.OnClickListene
         }
     }
 
+    public void onResume(){
+        super.onResume();
+
+        // Change title of Fragment
+        ((MainActivity) getActivity())
+                .setActionBarTitle(R.string.user_profile_action_bar_title);
+    }
+
 }

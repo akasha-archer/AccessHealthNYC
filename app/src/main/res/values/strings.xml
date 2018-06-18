@@ -11,6 +11,10 @@
     <string name="greeting_txt">What can we help you find today?</string>
     <string name="enter_location">Enter a location</string>
     <string name="use_current_location">Use current location</string>
+    <string name="find_service_action_bar_title">Find a Medical Service</string>
+
+    <string name="search_results">Search Results</string>
+
 
     <!-- Services Spinner options -->
     <string-array name="medical_services">
@@ -28,7 +32,10 @@
 
     <string name="family_size">Your family size is</string>
     <string name="family_income">Your income is</string>
+    <string name="user_profile_action_bar_title">User Profile</string>
 
+    <!-- Favorites -->
+    <string name="favorites_action_bar_title">Favorites</string>
 
     <!-- Bottom Navigation Bar-->
     <string name="nav_search">Search</string>
@@ -148,9 +155,12 @@
     <string name="how_many_family_members_live_in_your_household">How many family members live in your household?</string>
     <string name="total_family_income">Total Family Income</string>
     <string name="what_is_your_total_family_income_level">What is your TOTAL family income level?</string>
-    <string name="determine_eligibility">Sliding Scale Eligibility</string>
+    <string name="eligibility_action_bar_title">Sliding Scale Eligibility</string>
     <string name="check_fee_level">Check Fee Level</string>
+    <string name="view_medical_costs_action_bar_title">View Medical Costs</string>
     <string name="view_medical_costs">View Medical Costs</string>
+
+
 
     <string name="please_select_a_service">Please Select a Service:</string>
     <string name="based_on_your_hhc_fee_level_the_cost_of_this_service_will_be">Based on your HHC fee level, the cost of this service will be:</string>
