@@ -3,6 +3,7 @@ package com.akashaarcher.android.healthcarenyc.view.adapter;
 import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -94,11 +95,14 @@ public class HealthFacilityAdapter extends RecyclerView.Adapter<HealthFacilityAd
                 @Override
                 public void onClick(View view) {
                     // Sharing facility info via appropriate application on user's phone
+                    String location = view.getResources().getString(facility.getHealthFacilityAddress());
+                    String phoneNum = view.getResources().getString(facility.getHealthFacilityPhone());
+                    String websiteurl = view.getResources().getString(facility.getHealthFacilityWebsite());
+
                     Intent sendIntent = new Intent();
                     sendIntent.setAction(Intent.ACTION_SEND);
                     sendIntent.putExtra(Intent.EXTRA_TEXT, "Check out this health clinic location: " + facility.getHealthFacilityName() + ". "
-                            + facility.getHealthFacilityAddress()  + ". " + "Phone number: " + facility.getHealthFacilityPhone()
-                            + " and website: " + facility.getHealthFacilityWebsite());
+                            + location + ". " + "Phone number: " + phoneNum + " and website: " + websiteurl);
                     sendIntent.setType("text/plain");
                     view.getContext().startActivity(sendIntent);
                 }

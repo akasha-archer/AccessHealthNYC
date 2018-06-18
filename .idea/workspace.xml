@@ -21,7 +21,6 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HhcFacilityAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HhcFacilityAdapter.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -73,13 +72,13 @@
       <file leaf-file-name="HealthFacilityAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="98" column="89" lean-forward="false" selection-start-line="98" selection-start-column="89" selection-end-line="98" selection-end-column="89" />
+            <state relative-caret-position="275">
+              <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
               <folding>
-                <element signature="e#3090#3420#0" expanded="true" />
-                <element signature="e#3419#3420#0" expanded="true" />
-                <element signature="e#3477#4295#0" expanded="true" />
-                <element signature="e#4294#4295#0" expanded="true" />
+                <element signature="e#3115#3445#0" expanded="true" />
+                <element signature="e#3444#3445#0" expanded="true" />
+                <element signature="e#3502#4533#0" expanded="true" />
+                <element signature="e#4532#4533#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -2107,8 +2106,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="50" />
-    <option name="y" value="25" />
+    <option name="x" value="74" />
+    <option name="y" value="65" />
     <option name="width" value="1673" />
     <option name="height" value="926" />
   </component>
@@ -2452,7 +2451,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="50" y="25" width="1673" height="926" extended-state="0" />
+    <frame x="74" y="65" width="1673" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -2855,7 +2854,7 @@
         <state relative-caret-position="469">
           <caret line="77" column="48" lean-forward="false" selection-start-line="77" selection-start-column="48" selection-end-line="77" selection-end-column="48" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2971,13 +2970,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/akashaarcher/android/healthcarenyc/view/adapter/HealthFacilityAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="98" column="89" lean-forward="false" selection-start-line="98" selection-start-column="89" selection-end-line="98" selection-end-column="89" />
+        <state relative-caret-position="275">
+          <caret line="100" column="0" lean-forward="false" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
-            <element signature="e#3090#3420#0" expanded="true" />
-            <element signature="e#3419#3420#0" expanded="true" />
-            <element signature="e#3477#4295#0" expanded="true" />
-            <element signature="e#4294#4295#0" expanded="true" />
+            <element signature="e#3115#3445#0" expanded="true" />
+            <element signature="e#3444#3445#0" expanded="true" />
+            <element signature="e#3502#4533#0" expanded="true" />
+            <element signature="e#4532#4533#0" expanded="true" />
           </folding>
         </state>
       </provider>
